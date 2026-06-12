@@ -250,7 +250,6 @@ I am a **Computer Science undergraduate** with a production track record in buil
 |:---:|:---|
 | 🦈 **Pull Shark** | GitHub achievement — consistent, high-quality pull request contributions |
 | ⚡ **Quickdraw** | GitHub achievement — rapid, responsive open source collaboration |
-| 🏭 **Production Deployment** | Shipped a live RAG system at NTPC serving internal documentation at scale |
 | 🔭 **LLM From Scratch** | Implemented a complete transformer language model from mathematical foundations |
 | ⚡ **Forecasting System** | Built statewide electricity demand forecasting pipeline for MP — 15-min granularity |
 
