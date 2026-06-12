@@ -285,17 +285,6 @@ I am a **Computer Science undergraduate** with a production track record in buil
 
 </div>
 
----
-
-## 🏅 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Akshat-Rai0&theme=discord&no-frame=true&no-bg=true&margin-w=6&column=6" width="100%"/>
-
-</div>
-
----
 
 ## 📈 Contribution Activity
 
@@ -336,7 +325,7 @@ learning:
 
 building:
   - Self-Healing Research Agent (LangGraph + hybrid RAG + self-correction)
-  - Hardening NTPC-NVVN-MP forecasting pipeline (production security + reliability)
+
   - Expanding DocuMentor with multi-doc cross-reference and re-ranking
 
 exploring:
