@@ -240,26 +240,7 @@ I am a **Computer Science undergraduate** with a production track record in buil
 
 ---
 
-## 💼 Experience
 
-### 🏛 AI / LLM Engineering Intern — NTPC (National Thermal Power Corporation)
-`2024` · New Delhi, India
-
-Designed and deployed a production **Retrieval-Augmented Generation Q&A system** over NTPC's internal documentation corpus. The system serves live traffic, delivers cited natural-language answers, and reduced documentation lookup time significantly for internal teams.
-
-- Architected the full RAG stack: document ingestion, semantic chunking, embedding generation, vector store (ChromaDB), hybrid retrieval, and LLM response synthesis
-- Built a production-ready web interface backed by **FastAPI**, allowing non-technical staff to query complex regulatory and technical documentation
-- Designed the retrieval layer with BM25 + dense hybrid search, significantly outperforming naive embedding-only baselines
-- Delivered a hardened, modular codebase with clear separation between ingestion, retrieval, and serving layers — designed for handoff and maintenance by other engineers
-
-![Python](https://img.shields.io/badge/Python-1E1B4B?style=flat-square&logo=python&logoColor=A78BFA)
-![FastAPI](https://img.shields.io/badge/FastAPI-1E1B4B?style=flat-square&logo=fastapi&logoColor=A78BFA)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-1E1B4B?style=flat-square&logoColor=A78BFA)
-![LangChain](https://img.shields.io/badge/LangChain-1E1B4B?style=flat-square&logoColor=A78BFA)
-![React](https://img.shields.io/badge/React-1E1B4B?style=flat-square&logo=react&logoColor=A78BFA)
-![RAG](https://img.shields.io/badge/RAG%20Pipeline-1E1B4B?style=flat-square&logoColor=A78BFA)
-
----
 
 ## 🏆 Achievements
 
@@ -272,7 +253,6 @@ Designed and deployed a production **Retrieval-Augmented Generation Q&A system**
 | 🏭 **Production Deployment** | Shipped a live RAG system at NTPC serving internal documentation at scale |
 | 🔭 **LLM From Scratch** | Implemented a complete transformer language model from mathematical foundations |
 | ⚡ **Forecasting System** | Built statewide electricity demand forecasting pipeline for MP — 15-min granularity |
-| 🎯 **48 Stars** | 48 starred repositories — active engagement with the engineering ecosystem |
 
 </div>
 
