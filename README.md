@@ -35,9 +35,6 @@
 
 I am a **Computer Science undergraduate** with a production track record in building and deploying **LLM-powered systems and intelligent autonomous pipelines**. My work spans the full stack of AI engineering — from raw model integration and retrieval-augmented generation to agentic orchestration, scheduling, and real-world forecasting systems.
 
-At **NTPC**, I designed and shipped a production **RAG-based Q&A bot** serving internal documentation needs — a system with hybrid retrieval, semantic chunking, and a live web interface. That experience hardened my instinct for production reliability, latency-aware design, and enterprise-grade modularity.
-
-I build software the way senior engineers do: **codebase-first, not demo-first**. Every project I ship is built around clean architecture, tested pipelines, and a clear path to scale.
 
 <br/>
 
