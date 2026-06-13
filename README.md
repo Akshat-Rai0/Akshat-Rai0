@@ -13,13 +13,7 @@
 ![Focus](https://img.shields.io/badge/Focus-LLM%20%26%20Agents-6D28D9?style=for-the-badge&logo=openai&logoColor=white)
 ![Location](https://img.shields.io/badge/📍%20Delhi%2C%20India-1E1B4B?style=for-the-badge)
 
-<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshat%20Rai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)]([https://linkedin.com/in/akshat-rai0](https://www.linkedin.com/in/akshat-rai-196497339/))
-[![GitHub](https://img.shields.io/badge/GitHub-Akshat--Rai0-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Akshat-Rai0)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:arai34752@gmail.com)
-
-<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Akshat-Rai0&label=Profile%20Views&color=7C3AED&style=flat-square)
 ![Followers](https://img.shields.io/github/followers/Akshat-Rai0?label=Followers&style=flat-square&color=6D28D9&logo=github)
