@@ -262,7 +262,7 @@ I am a **Computer Science undergraduate** with a production track record in buil
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Akshat--Rai0-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/Akshat-Rai0)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Akshat--Rai0-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/Akshatrai123)
 
 
 </div>
