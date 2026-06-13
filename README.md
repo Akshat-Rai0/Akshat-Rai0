@@ -15,9 +15,9 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshat%20Rai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/akshat-rai0)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshat%20Rai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)]([https://linkedin.com/in/akshat-rai0](https://www.linkedin.com/in/akshat-rai-196497339/))
 [![GitHub](https://img.shields.io/badge/GitHub-Akshat--Rai0-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Akshat-Rai0)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:akshatrai@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:arai34752@gmail.com)
 
 <br/>
 
