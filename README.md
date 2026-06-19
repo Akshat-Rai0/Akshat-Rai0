@@ -35,7 +35,7 @@ I am a **Computer Science undergraduate** with a production track record in buil
 **🎯 Open To**
 
 ```
-• AI/ML Engineering Internships   (Summer 2026 — 3rd Year)
+• AI/ML Engineering Internships   (Summer 2027 — 3rd Year)
 • LLM / Agent Systems Roles
 • Research Engineering Positions
 • Backend Engineering with AI focus
