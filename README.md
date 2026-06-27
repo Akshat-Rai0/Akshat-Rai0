@@ -309,7 +309,7 @@ I am a **Computer Science undergraduate** with a production track record in buil
 ```yaml
 # Akshat Rai — Q2 2025
 
-status: Actively_Building
+status: Actively Building
 
 learning:
   - LangGraph: state-machine orchestration for agentic systems
