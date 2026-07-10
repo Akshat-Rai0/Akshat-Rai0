@@ -307,7 +307,7 @@ I am a **Computer Science undergraduate** with a production track record in buil
 ## 🎯 Current Focus
 
 ```yaml
-# Akshat Rai — Q2 2025
+# Akshat Rai — Q3 2025
 
 status: Actively Building
 
