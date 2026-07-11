@@ -27,7 +27,7 @@
 
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=Akshat-Rai0&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github" width="420"/>
 
-I am a **Computer Science undergraduate** with a production track record in building and deploying **LLM-powered systems and intelligent autonomous pipelines**. My work spans the full stack of AI engineering — from raw model integration and retrieval-augmented generation to agentic orchestration, scheduling, and real-world forecasting systems.
+I am a **Computer Science undergraduate** with a production track record in building and deploying **LLM-powered systems and intelligent autonomous pipelines**. My work spans the full stack of AI engineering from raw model integration and retrieval-augmented generation to agentic orchestration, scheduling, and real-world forecasting systems.
 
 
 <br/>
