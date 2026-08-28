@@ -23,7 +23,7 @@
 
 ## 👤 About
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=Akshat-Rai0&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github" width="420"/>
+<img align="right" src="https://github-readme-stats-sigma-rosy-23.vercel.app/api?username=Akshat-Rai0&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github" width="420"/>
 
 I am a **Computer Science undergraduate** with a production track record in building and deploying **LLM-powered systems and intelligent autonomous pipelines**. My work spans the full stack of AI engineering — from raw model integration and retrieval-augmented generation to agentic orchestration, scheduling, and real-world forecasting systems.
 
@@ -248,27 +248,23 @@ I am a **Computer Science undergraduate** with a production track record in buil
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Akshat-Rai0&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github&include_all_commits=true&count_private=true" height="180"/>
+![Followers](https://img.shields.io/github/followers/Akshat-Rai0?label=Followers&style=for-the-badge&color=6D28D9&logo=github)
+![Stars](https://img.shields.io/github/stars/Akshat-Rai0?label=Total%20Stars&style=for-the-badge&color=4C1D95&logo=github)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Akshat-Rai0&label=Public%20Repos&query=public_repos&color=7C3AED&style=for-the-badge&logo=github)
+
+<br/><br/>
+
+<img src="https://github-readme-stats-sigma-rosy-23.vercel.app/api?username=Akshat-Rai0&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github&include_all_commits=true&count_private=true" height="180"/>
 
 <img src="https://streak-stats.demolab.com?user=Akshat-Rai0&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=7C3AED&ring=A78BFA&fire=C4B5FD&currStreakLabel=A78BFA&sideLabels=C4B5FD&currStreakNum=ffffff&sideNums=ffffff&dates=6B7280" height="180"/>
 
-</div>
+<br/>
 
-<div align="center">
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Akshat-Rai0&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD&langs_count=8" height="180"/>
-
-</div>
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshat-Rai0&bg_color=0D0D1A&color=A78BFA&line=7C3AED&point=C4B5FD&area=true&area_color=4C1D95&hide_border=true&custom_title=Contribution%20Graph" width="100%"/>
+<img src="https://github-readme-stats-sigma-rosy-23.vercel.app/api/top-langs/?username=Akshat-Rai0&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD&langs_count=8" height="180"/>
 
 </div>
 
