@@ -252,15 +252,15 @@ I am a **Computer Science undergraduate** with a production track record in buil
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Akshat-Rai0&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github&include_all_commits=true&count_private=true" height="180"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Akshat-Rai0&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github&include_all_commits=true&count_private=true" height="180"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Akshat-Rai0&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=7C3AED&ring=A78BFA&fire=C4B5FD&currStreakLabel=A78BFA&sideLabels=C4B5FD&currStreakNum=ffffff&sideNums=ffffff&dates=6B7280" height="180"/>
+<img src="https://streak-stats.demolab.com?user=Akshat-Rai0&theme=midnight-purple&hide_border=true&background=0D0D1A&stroke=7C3AED&ring=A78BFA&fire=C4B5FD&currStreakLabel=A78BFA&sideLabels=C4B5FD&currStreakNum=ffffff&sideNums=ffffff&dates=6B7280" height="180"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-Rai0&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD&langs_count=8" height="180"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Akshat-Rai0&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD&langs_count=8" height="180"/>
 
 </div>
 
