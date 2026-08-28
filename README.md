@@ -13,8 +13,6 @@
 ![Focus](https://img.shields.io/badge/Focus-LLM%20%26%20Agents-6D28D9?style=for-the-badge&logo=openai&logoColor=white)
 ![Location](https://img.shields.io/badge/📍%20Delhi%2C%20India-1E1B4B?style=for-the-badge)
 
-
-
 ![Profile Views](https://komarev.com/ghpvc/?username=Akshat-Rai0&label=Profile%20Views&color=7C3AED&style=flat-square)
 ![Followers](https://img.shields.io/github/followers/Akshat-Rai0?label=Followers&style=flat-square&color=6D28D9&logo=github)
 ![Stars](https://img.shields.io/github/stars/Akshat-Rai0?label=Total%20Stars&style=flat-square&color=4C1D95&logo=github)
@@ -27,8 +25,7 @@
 
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=Akshat-Rai0&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&rank_icon=github" width="420"/>
 
-I am a **Computer Science undergraduate** with a production track record in building and deploying **LLM-powered systems and intelligent autonomous pipelines**. My work spans the full stack of AI engineering from raw model integration and retrieval-augmented generation to agentic orchestration, scheduling, and real-world forecasting systems.
-
+I am a **Computer Science undergraduate** with a production track record in building and deploying **LLM-powered systems and intelligent autonomous pipelines**. My work spans the full stack of AI engineering — from raw model integration and retrieval-augmented generation to agentic orchestration, scheduling, and real-world forecasting systems.
 
 <br/>
 
@@ -87,7 +84,7 @@ I am a **Computer Science undergraduate** with a production track record in buil
 | **Autonomous Agents** | ██████░░░░ `Developing` | LangGraph, tool-use patterns, decomposition, self-correction loops, multi-step planning |
 | **Time Series Forecasting** | ████████░░ `Advanced` | LightGBM, lag features, multi-city weighted averaging, APScheduler, feature stores |
 | **ML Engineering** | ███████░░░ `Proficient` | Production pipelines, model serving, ORM/CSV dual storage, lru_cache loaders |
-| **Computer Vision** | █████░░░░░ `Intermediate` | Object detection, license plate recognition, YOLOv models, OpenCV |
+| **Computer Vision** | █████░░░░░ `Intermediate` | Object detection, license plate recognition, YOLO models, OpenCV |
 | **NLP / Embeddings** | ███████░░░ `Proficient` | sentence-transformers, BM25, dense retrieval, similarity search |
 | **Evaluation & LLM-as-Judge** | ████░░░░░░ `Learning` | RAGAS, LLM evaluation frameworks, contradiction detection |
 
@@ -101,19 +98,35 @@ I am a **Computer Science undergraduate** with a production track record in buil
 <summary><b>⚡ NTPC-NVVN-MP — Electricity Demand Forecasting System</b></summary>
 <br/>
 
-> Production-grade electricity demand forecasting engine for Madhya Pradesh, built for NTPC-NVVN. Integrates live weather signals, engineered lag features, and a multi-tier fallback chain into an end-to-end ML serving pipeline with a Django backend and scheduled inference.
+> Production-grade electricity demand forecasting engine built during an internship at NTPC-NVVN, covering all Indian states. Integrates live weather signals, engineered lag features, and a multi-tier fallback chain into an end-to-end ML serving pipeline with a Django backend and scheduled inference.
 
 | Attribute | Details |
 |:---|:---|
-| **Stack** | Python · Django · LightGBM · APScheduler · Open-Meteo API · PostgreSQL · SQLite |
-| **Architecture** | Dual ORM/CSV storage · 5-tier lag feature fallback chain · Multi-city weighted weather averaging |
-| **ML Pipeline** | LightGBM regressor · Time-series feature engineering · Automated retraining scheduler |
-| **Data Sources** | Open-Meteo weather API · MERIT API (15-min granularity) · Grid-India feeds |
+| **Stack** | Python · Django 5 · LightGBM · APScheduler · Open-Meteo API · PostgreSQL · SQLite |
+| **Architecture** | State-driven YAML config for zero-code state onboarding · 5-tier lag-feature fallback chain · Multi-region weighted weather averaging |
+| **ML Pipeline** | LightGBM + Random Forest ensemble · MAPE 0.89%, R² 0.997 · Outperformed heuristic baseline by 40%+ |
+| **Security** | Hardened credentials via environment variables, restructured HTTPS — brought deployment in line with OWASP baselines |
 | **Reliability** | File-lock safe CSV writes · LRU-cached model loader with mtime invalidation |
-| **Scale** | Statewide demand inference · 15-minute prediction granularity · Production APScheduler jobs |
 | **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2FNTPC--NVVN--MP-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/NTPC-NVVN-MP) |
 
-**Engineering Depth:** The system is built around a modular utility layer — independent modules for weather ingestion, lag feature construction, time feature extraction, and prediction logging. The scheduler aligns prediction jobs to slot boundaries and the model loader validates staleness via mtime before serving, ensuring zero stale predictions in production. The dual storage pattern (ORM + CSV) allows both queryable persistence and raw export with no coupling between layers.
+<br/>
+</details>
+
+---
+
+<details>
+<summary><b>🧭 PLAN-EXECUTE-AGENT — Agentic Architecture Ablation Study</b></summary>
+<br/>
+
+> A LangGraph-based framework built to empirically compare three agentic architectures — ReAct, Plan-and-Execute, and Plan-and-Execute with dynamic tool synthesis — on real-world web task automation.
+
+| Attribute | Details |
+|:---|:---|
+| **Stack** | Python · LangGraph · FastAPI · React · browser-use · Groq / OpenRouter / Ollama |
+| **Reliability** | Closed a step-verification gap via a `success_criterion` field with automated verification logic |
+| **Fault Tolerance** | Diagnosed a structural token-overflow issue on Groq's free tier (9–15k token payloads vs. 8k TPM ceiling); built a three-tier LLM fallback (Groq → OpenRouter → local Ollama) and a 5-pipeline task-routing classifier |
+| **Evaluation** | Curated a 20-goal golden dataset with anchored success criteria for LLM-as-judge scoring across all three architectures |
+| **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2FPLAN--EXECUTE--AGENT-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/PLAN-EXECUTE-AGENT) |
 
 <br/>
 </details>
@@ -124,18 +137,16 @@ I am a **Computer Science undergraduate** with a production track record in buil
 <summary><b>🧠 DocuMentor — Hybrid RAG Documentation Assistant</b></summary>
 <br/>
 
-> A production-oriented documentation Q&A system implementing hybrid retrieval over technical knowledge bases. Combines sparse BM25 lexical matching with dense semantic search and cross-encoder reranking to deliver high-precision, contextually grounded answers.
+> A full-stack agentic RAG system that crawls any public documentation URL and answers developer queries in plain English via a 7-stage autonomous pipeline — built without LangChain or LlamaIndex, using custom orchestration logic.
 
 | Attribute | Details |
 |:---|:---|
-| **Stack** | Python · FastAPI · React · TypeScript · ChromaDB · SQLite · sentence-transformers |
-| **Retrieval** | BM25 + Dense vector hybrid · Cross-encoder reranking · Semantic chunking |
-| **Frontend** | React / TypeScript SPA · Query interface · Source-cited response display |
-| **Storage** | ChromaDB vector store · SQLite metadata · Document ingestion pipeline |
-| **Pattern** | RAG pipeline · Embedding cache · Configurable retrieval depth |
-| **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repos-Akshat--Rai0-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0) |
-
-**Engineering Depth:** DocuMentor implements the full RAG triad — ingestion, retrieval, and generation — as independent, swappable modules. The hybrid retrieval layer scores candidates from both BM25 and dense retrieval independently, merges via reciprocal rank fusion, and passes the top-k pool to a cross-encoder for final scoring. This multi-stage approach consistently outperforms single-strategy retrieval on domain-specific technical corpora.
+| **Stack** | Python · FastAPI · React · TypeScript · ChromaDB · BM25 · sentence-transformers · Grok API |
+| **Retrieval** | Hybrid BM25 + dense retrieval fused via Reciprocal Rank Fusion, reranked with `cross-encoder/ms-marco-MiniLM-L-6-v2` |
+| **Grounding** | Pydantic-enforced JSON output schema and intent-specific prompt templates eliminate ungrounded responses |
+| **Performance** | 100% reduction in redundant re-crawling via 7-day manifest-based version cache |
+| **Frontend** | React + TypeScript with SSE token streaming and IndexedDB session persistence |
+| **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2FDocuMentor-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/DocuMentor) |
 
 <br/>
 </details>
@@ -143,21 +154,36 @@ I am a **Computer Science undergraduate** with a production track record in buil
 ---
 
 <details>
-<summary><b>🔬 Self-Healing Research Agent — Autonomous Research Pipeline</b></summary>
+<summary><b>👁 EYE — Intelligent Visual Asset Management</b></summary>
 <br/>
 
-> An autonomous multi-step research agent capable of decomposing complex queries, executing hybrid retrieval across web and local knowledge, detecting contradictions between sources, and self-correcting via LLM-as-judge evaluation loops. Designed as a flagship agentic AI portfolio system.
+> A full-stack visual asset platform that automatically tags, describes, and semantically organizes image libraries using a 7-step multi-model AI pipeline.
 
 | Attribute | Details |
 |:---|:---|
-| **Stack** | Python · LangGraph · LangChain · Tavily API · FastAPI · React |
-| **Orchestration** | LangGraph state machine · Tool-use patterns · Multi-step planning |
-| **Retrieval** | Hybrid web + local RAG · Tavily search integration · Semantic deduplication |
-| **Self-Correction** | Contradiction detection · LLM-as-judge evaluation · RAGAS metrics |
-| **Output** | Structured cited reports · Source attribution · Confidence scoring |
-| **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repos-Akshat--Rai0-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0) |
+| **Stack** | Python · FastAPI · React · YOLOv11 · Moondream2 · CLIP · UMAP · SQLite |
+| **Pipeline** | YOLOv11 object detection → Moondream2 visual reasoning → CLIP semantic vectorization → UMAP 3D projection |
+| **Architecture** | Autonomous per-upload worker — each upload triggers an independent AI worker that populates metadata/embeddings without blocking the API |
+| **Visualization** | Projected 512D CLIP embeddings into an interactive 3D semantic graph for navigable visual discovery |
+| **Performance** | Processed 400 images at 1.8s/image on CPU — no cloud GPU required · SHA256 hash-based deduplication for idempotent ingestion |
+| **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2Feye--project-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/eye-project) |
 
-**Engineering Depth:** The agent implements a cyclic LangGraph graph — decompose → retrieve → evaluate → self-correct → synthesize — where the self-correction node re-routes to retrieval if the judge model flags contradictions or low confidence. The architecture cleanly separates planning, execution, and evaluation layers, making individual components auditable and replaceable.
+<br/>
+</details>
+
+---
+
+<details>
+<summary><b>📖 LLM From Scratch — GPT-2 Transformer Implementation</b></summary>
+<br/>
+
+> Ground-up implementation of the GPT-2 architecture, built for hands-on understanding of transformer internals — tokenization, multi-head self-attention, positional encoding, feed-forward layers, and autoregressive generation.
+
+| Attribute | Details |
+|:---|:---|
+| **Stack** | Python · PyTorch · NumPy |
+| **Scope** | Tokenizer · Embedding layer · Multi-head attention · Transformer blocks · Generation |
+| **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2Fllm__from__scratch-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/llm_from_scratch) |
 
 <br/>
 </details>
@@ -168,13 +194,12 @@ I am a **Computer Science undergraduate** with a production track record in buil
 <summary><b>🎵 Shazam Clone — Audio Fingerprinting System</b></summary>
 <br/>
 
-> A from-scratch implementation of the Shazam audio fingerprinting algorithm. Generates spectrogram peak constellations, builds a hash database of audio fingerprints, and matches query audio against stored tracks using offset voting — replicating the core recognition pipeline.
+> A from-scratch implementation of the Shazam audio fingerprinting algorithm. Generates spectrogram peak constellations, builds a hash database of audio fingerprints, and matches query audio against stored tracks using offset voting.
 
 | Attribute | Details |
 |:---|:---|
 | **Stack** | Python · NumPy · SciPy · librosa · Matplotlib |
-| **Algorithm** | Spectrogram peak extraction · Constellation mapping · Hash-based fingerprinting |
-| **Matching** | Offset histogram voting · Confidence scoring · Query vs. database alignment |
+| **Algorithm** | Spectrogram peak extraction · Constellation mapping · Hash-based fingerprinting · Offset histogram voting |
 | **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2Fshazam--clone-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/shazam-clone) |
 
 <br/>
@@ -183,15 +208,15 @@ I am a **Computer Science undergraduate** with a production track record in buil
 ---
 
 <details>
-<summary><b>🚗 License Plate Recognition — Computer Vision Pipeline</b></summary>
+<summary><b>🚗 License Plate Recognition — Classical CV Pipeline</b></summary>
 <br/>
 
-> End-to-end automatic license plate recognition system. Applies detection, localization, and OCR across real-world vehicle images with preprocessing, contour extraction, and character segmentation.
+> End-to-end automatic license plate recognition system using classical computer vision — edge detection, contour extraction, and character segmentation — rather than deep-learning detection.
 
 | Attribute | Details |
 |:---|:---|
 | **Stack** | Python · OpenCV · NumPy · Tesseract OCR |
-| **Pipeline** | Frame preprocessing · Plate detection · Character segmentation · OCR |
+| **Pipeline** | Preprocessing → edge detection → contour-based plate localization → character segmentation → OCR |
 | **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2Flicense__plate__recognition-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/license_plate_recognition) |
 
 <br/>
@@ -199,65 +224,25 @@ I am a **Computer Science undergraduate** with a production track record in buil
 
 ---
 
-<details>
-<summary><b>👁 EYE — Computer Vision Research Project</b></summary>
-<br/>
-
-> Computer vision research project exploring object detection and visual understanding tasks. Built on Python with deep learning frameworks, targeting real-world visual recognition challenges.
-
-| Attribute | Details |
-|:---|:---|
-| **Stack** | Python · PyTorch · OpenCV · NumPy |
-| **Domain** | Object detection · Visual recognition · Deep learning |
-| **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2Feye--project-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/eye-project) |
-
-<br/>
-</details>
-
----
-
-<details>
-<summary><b>📖 LLM From Scratch — Transformer Implementation</b></summary>
-<br/>
-
-> Ground-up implementation of a transformer-based language model. Covers tokenization, multi-head self-attention, positional encoding, feed-forward layers, and autoregressive generation — built to develop deep architectural intuition.
-
-| Attribute | Details |
-|:---|:---|
-| **Stack** | Python · PyTorch · NumPy |
-| **Scope** | Tokenizer · Embedding layer · Multi-head attention · Transformer blocks · Generation |
-| **Purpose** | Architectural fundamentals · Research foundations · Deep systems understanding |
-| **Repository** | [![GitHub](https://img.shields.io/badge/View%20Repo-Akshat--Rai0%2Fllm__from__scratch-7C3AED?style=flat-square&logo=github)](https://github.com/Akshat-Rai0/llm_from_scratch) |
-
-<br/>
-</details>
-
----
-
-
-
 ## 🏆 Achievements
 
 <div align="center">
 
 | Recognition | Details |
 |:---:|:---|
-| 🦈 **Pull Shark** | GitHub achievement — consistent, high-quality pull request contributions |
-| ⚡ **Quickdraw** | GitHub achievement — rapid, responsive open source collaboration |
-| 🔭 **LLM From Scratch** | Implemented a complete transformer language model from mathematical foundations |
-| ⚡ **Forecasting System** | Built statewide electricity demand forecasting pipeline for MP — 15-min granularity |
+| 🧮 **LeetCode Rating: 1589** | Consistent problem-solving practice on LeetCode |
+| 🏁 **Hackathons** | Participated in hackathons hosted by Adobe, Flipkart, Amazon, and Smart India Hackathon (SIH) |
+| 🌐 **Open Source — LibreTranslate** | Diagnosed root cause of a translation quality issue, tracing it to a model-level limitation — [Issue #828](https://github.com/LibreTranslate/LibreTranslate/issues/828) |
 
 </div>
 
 ---
 
-
 ## 💻 Coding Profiles
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Akshat--Rai0-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/Akshatrai123)
-
+[![LeetCode](https://img.shields.io/badge/LeetCode-Akshatrai123-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/Akshatrai123)
 
 </div>
 
@@ -278,7 +263,6 @@ I am a **Computer Science undergraduate** with a production track record in buil
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-Rai0&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD&langs_count=8" height="180"/>
 
 </div>
-
 
 ## 📈 Contribution Activity
 
@@ -307,29 +291,26 @@ I am a **Computer Science undergraduate** with a production track record in buil
 ## 🎯 Current Focus
 
 ```yaml
-# Akshat Rai — Q3 2025
+# Akshat Rai
 
 status: Actively Building
 
 learning:
   - LangGraph: state-machine orchestration for agentic systems
   - LLM evaluation: RAGAS, LLM-as-judge, contradiction detection
-  - Tavily API: real-time web retrieval for agents
   - Advanced tool-use patterns and function calling
 
 building:
-  - Self-Healing Research Agent (LangGraph + hybrid RAG + self-correction)
-
   - Expanding DocuMentor with multi-doc cross-reference and re-ranking
+  - Refining agentic architecture benchmarks from the PLAN-EXECUTE-AGENT study
 
 exploring:
   - Multi-agent collaboration frameworks
   - Structured output reliability patterns for LLMs
-  - LangChain Academy curriculum (LangGraph path)
   - Open-source AI agent benchmarks
 
 open_to:
-  - AI / LLM Engineering Internships (Summer 2025)
+  - AI / LLM Engineering Internships (Summer 2027)
   - Research Engineering positions
   - Agent systems and RAG pipeline projects
   - Backend engineering roles with AI integration
@@ -341,7 +322,7 @@ open_to:
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](btech15096.24@bitmesra.ac.in)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arai34752@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshat-rai-196497339/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akshat-Rai0)
 
